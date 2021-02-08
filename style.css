@@ -20,10 +20,10 @@ input{
     margin: 0;
 }
 button{
-    border: 1px solid #dedede;
+    border: 1px solid #1d5041;
     border-radius: 10px;
     font-size: 20px;
-    padding: 10px 15px;
+    padding: 8px 10px;
     margin: 0;
 }
 input[type="text"] {
@@ -44,7 +44,7 @@ input[type="text"] {
     font-size: 15px;
     margin-top: 10px;
     height: 60px;
-    background: rgb(126, 170, 136);
+    background: rgb(21, 248, 134);
     color: rgb(19, 18, 19);
     padding: 2px;
     margin-bottom: 5px;
@@ -58,9 +58,8 @@ input[type="text"] {
     cursor: pointer;
 }
 button{
-    width: 70px;
+    width: 100px;
 }
 #search-btn{
-    cursor: pointer;
-    background-color: rgb(51, 241, 44);
+    background-color: rgb(109, 243, 91);
 }

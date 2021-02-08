@@ -10,7 +10,7 @@ const foodItem= elements => {
           console.log(data);
             results.innerHTML =`<h1>'${mealCategory}'</h1>`;
             if(data.meals === null){
-                results.innerHTML =`<h3>Enter meal and try again </p>`;
+                results.innerHTML =`<h3> Please Enter your desired meal correctly  and try again </p>`;
             }else{
                 mealLists.innerHTML = data.meals.map( mealInfo).join('');
             }
@@ -43,7 +43,7 @@ const getMealById = mealId => {
 const addMealItem = meal =>{
     const ingredients = [];
 
-    for(let i = 1; i<=0; i++){
+    for(let i = 1; i<=10; i++){
         if(meal[`strIngredient${i}`]){
             ingredients.push(`${meal[`strIngredient${i}`]} - ${meal[`strMeasure${i}`]}`);
         }else{

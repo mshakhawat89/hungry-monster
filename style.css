@@ -8,8 +8,8 @@
     display: flex;
 }
 body {
-    background: #aecaab;
-    color: rgb(246, 249, 251);
+    background: #85d6ee;
+    color: rgb(182, 62, 230);
     margin: 0;
 }
 input{
@@ -62,4 +62,5 @@ button{
 }
 #search-btn{
     cursor: pointer;
+    background-color: rgb(51, 241, 44);
 }
